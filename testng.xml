@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sample Suite">
+  <test name="Test">
+  <parameter name="browser" value="chrome"/>
+  	<groups>
+  		<define name="all">
+  			<include name="testHome"></include>
+  			<include name="testSearch"></include>
+  		</define>
+		<run>
+			<include name="testHome"></include>
+		</run>
+	</groups>
+  	<classes>
+      <class name="Test.testCore.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
