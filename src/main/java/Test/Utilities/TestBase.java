@@ -41,7 +41,7 @@ public class TestBase {
 			driver=new ChromeDriver();
 			System.out.println(Readproperty.getProp("URL"));
 			driver.get(Readproperty.getProp("URL"));
-			System.out.println("AUT opened in chrome");
+			System.out.println("AUT opened in chrome browser");
 		}		
 	}
 	

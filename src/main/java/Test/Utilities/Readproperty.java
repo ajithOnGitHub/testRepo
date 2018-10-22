@@ -24,7 +24,6 @@ public class Readproperty {
 	}
 	
 	public static String getProp(String property) {
-		System.out.println(property);
 		String temp = null;
 		try {
 		temp = prop.getProperty("URL");
